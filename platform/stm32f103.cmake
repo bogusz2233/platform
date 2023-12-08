@@ -30,5 +30,4 @@ add_link_options(
     -Wl,--print-memory-usage
 )
 
-set(PLATFORM_NAME stm32f103)
 set(CMAKE_EXECUTABLE_SUFFIX .elf)
