@@ -2,7 +2,7 @@
 
 namespace drivers {
   
-  Result Driver::Read(const void *data, uint32_t size){
+  Result Driver::Read(void *data, uint32_t size){
     if(data == nullptr){
       return Status::NULLPTR;
     }
@@ -15,7 +15,7 @@ namespace drivers {
   }
 
 
-Result Driver::ReadImpl(const void *data, uint32_t size){
+Result Driver::ReadImpl(void *data, uint32_t size){
   return Status::NOT_IMPLEMENTED;
 }
 

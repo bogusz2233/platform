@@ -18,10 +18,10 @@ using Result = std::variant<Status, uint32_t>;
 
 class Driver {
 public:
-  Result Read(const void *data, uint32_t size);
+  Result Read(void *data, uint32_t size);
 
 private:
-  virtual Result ReadImpl(const void *data, uint32_t size);
+  virtual Result ReadImpl(void *data, uint32_t size);
 
 };
 
