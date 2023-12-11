@@ -13,7 +13,7 @@ class EmptyDriver : public Driver{
 class DummyDriver : public Driver
 {
 public:
-   MOCK_METHOD(Result, ReadImpl, (const void *data, uint32_t size), (override)); 
+   MOCK_METHOD(Result, ReadImpl, (void *data, uint32_t size), (override)); 
 };
 
 
