@@ -8,6 +8,7 @@ target_link_libraries(
   unit_test_drivers
   ${PROJECT_NAME}
   GTest::gtest_main
+  GTest::gmock
 )
 
 gtest_discover_tests(unit_test_drivers)
