@@ -7,3 +7,6 @@
 [submodule "libs/STM32CubeF1"]
 	path = libs/STM32CubeF1
 	url = https://github.com/STMicroelectronics/STM32CubeF1.git
+[submodule "unit_tests/googletest"]
+	path = unit_tests/googletest
+	url = git@github.com:google/googletest.git
